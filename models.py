@@ -7,7 +7,10 @@ Copyright (c) 2011 RMRI. All rights reserved.
 
 class Arrival():
 	def Arrival(self):
-		pass
+		self.minutes = 0
+		self.interval = ''
+		self.note = ''
+		self.lowfloor = False
 	def __repr__(self):
 		return str(self.interval) if self.interval else str(self.minutes)
 
